@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Building a form</title>
+</head>
+<body>
+<h1>Simple log inform</h1>
+<!-- action where to send data -->
+<!-- method what http method  -->
+<form> <!-- action="http://google.com" method="GET"> --> <!-- once user types in info t=it is sent to google -->
+<label>Username
+<input name="username" type="text"placeholder="username">
+</label>
+ <!-- placeholder places text in the box for the user to see so they know what goes where -->
+<label>Password
+<input name="password" type="password" placeholder="password" >
+</label>
+ <!-- the name attributes tells the from what to do -->
+
+<input type="submit">
+</form>
+Labels are used for screen reader software for the blind
+<label>username</label>
+
+
+
+another way of doing it
+<form>
+<label form="username">Username:</label>
+<!-- when the type and placeholder is change to email it require an email to log in -->
+<input id="email" name="username" type="email" placeholder="email" required>
+<!-- required makes it mandotoray to type crediatianls in -->
+<!--  connects the forms together which make them connected we added the form to the label
+ and we added an id to input which matchs the name in the password -->
+<label form="password">Password:</label>
+<input id="password" name="password" type="password" placeholder="password" required >
+
+ 
+
+<input type="submit">
+</form>
+
+
+
+</body>
+</html>

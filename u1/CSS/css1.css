@@ -1,0 +1,44 @@
+h1{
+	color:purple;
+}
+hexadeciaml 
+HEXADECIMAL -BASE 16
+0 is the lowest number f is the highest values
+
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+R_ R_ G_ G_ B_ B_
+RGB color picker
+
+color: rgb(200,244,6);
+rgb ranges from 0-255
+
+
+ 0 0 0 equals black
+ 255 
+ 255 
+ 255  makes black
+ RGBA color:rgba (11,23,255,.6)
+ last channel ranges from 0-1 makes the color transparency
+ body{
+ 	background: #fe3bdca;
+ }
+ body{
+ 	background: url(); enter an image
+ }
+ h4{
+ 	background-color: rgb(240,120,100);
+ }
+/*/* /*setting background image*/
+ /*body*/{
+ 	/*background-image: url(http://www.coastalhomeinspectors.com/wp-content/uploads/2015/10/Home-inspections-Fort-Myers-Beach1.jpg);*/
+ 	/*background-repeat: no-repeat;         makes sure the pic does not repeat*/
+ }*/*/ 
+
+ h1{
+ 	color: blue;
+ 	border-color: red;
+ 	border-width: 5px
+ 	border-style: solid;
+
+ }

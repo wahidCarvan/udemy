@@ -1,0 +1,35 @@
+body{
+	background-color: orange;
+}
+/*Elemenet selector*/
+li {
+
+}
+/*class selector*/
+.hello{
+
+}
+
+/*id selector*/
+#name{
+
+}
+/*the star selecetor selects everything on the page*/
+
+*{
+
+}
+/*descendant selecttor*/
+li a {
+	selects every anchor tag inside of an li
+
+}
+/*adjacent selectprs*/
+h4 + ul {
+	Selecting the uls that come after the h4 
+}
+/*attribute selectors*/
+/*selects only the as which lead to google*/
+a [href="http://www.google.com"] {
+	background:yeloow;
+}

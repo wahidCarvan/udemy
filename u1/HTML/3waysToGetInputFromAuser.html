@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3 ways to get input from a user</title>
+</head>
+<body>
+<!-- 3 ways to get input from user -->
+<p>do you prefer cats or dogs?</p>
+
+<!-- radio button
+<input type="radio">
+<input type="radio">  -->
+<form>
+	<label for="dogs">Dogs:</label>
+	<input name= "petChoice id="dogs" type="radio" value="DOGS">
+
+<label for="cats">Cats:</label>
+	<input name= "petChoice id="cats" type="radio" value="CATS">
+	<!-- select makes a drop down menu and option adds options to the menu the name gives it a value -->
+	<!-- <select name="color">
+	<p>Whats your favorite color?</p>
+		<option>Red</option>
+		<option>Orange</option>
+		<option>Yellow</option>
+	</select>
+<button>Go!</button>
+</form> -->
+<!-- the value tag added to select translates the signs from numbers to words -->
+	<p>Whats your mood?</p>
+	<select name="Mood">
+	
+		<option value="happy">:)</option>
+		<option value="sad">:(</option>
+		<option value="netural">|:</option>
+	</select>
+<button>Go!</button>
+</form>
+
+<!-- text area tags -->
+<!-- <input type="text"> simply displaays s single box -->
+<textarea  name="info" rows="10" cols="50"></textarea> adds size to the box add a name attribute so we can send the userinput somehwere
+<!-- <textarea></textarea> makes a bigger box -->
+<button>Go</button>
+</body>
+</html>
