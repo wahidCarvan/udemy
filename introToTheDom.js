@@ -9,7 +9,7 @@
 
 //  var id= document.getElementById('highlight');
 
-
+// REVIEW
 //  var tags= document.getElementByClassName('bolded');
 
 //  var tag= document.getElementByTagName('li')
